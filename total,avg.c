@@ -4,17 +4,12 @@ int main() {
     float s1, s2, s3, total;
     float average;
 
-    // Prompt user for input
     printf("Enter marks for three subjects:\n");
     scanf("%f %f %f", &s1, &s2, &s3);
 
-    // Calculate total
     total = s1 + s2 + s3;
-
-    // Calculate average
     average = total / 3.0;
 
-    // Display results
     printf("Total Marks = %.2f\n", total);
     printf("Average Marks = %.2f\n", average);
 
