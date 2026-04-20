@@ -3,17 +3,12 @@
 int main() {
     float km, meters, centimeters;
 
-    // Input distance in kilometers
     printf("Enter distance in kilometers: ");
     scanf("%f", &km);
 
-    // Conversion formulas
-    // 1 km = 1000 meters
-    // 1 km = 100000 centimeters
     meters = km * 1000.0;
     centimeters = km * 100000.0;
 
-    // Displaying results
     printf("%.2f kilometers is equal to:\n", km);
     printf("%.2f Meters\n", meters);
     printf("%.2f Centimeters\n", centimeters);
