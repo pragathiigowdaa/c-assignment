@@ -6,11 +6,9 @@ int main() {
     scanf("%d %d", &a, &b);
 
     printf("Before swapping: a = %d, b = %d\n", a, b);
-
-    // Swapping logic
-    a = a + b; // a now holds the sum of both numbers
-    b = a - b; // b now holds the original value of a
-    a = a - b; // a now holds the original value of b
+    a = a + b; 
+    b = a - b;
+    a = a - b; 
 
     printf("After swapping: a = %d, b = %d\n", a, b);
 
